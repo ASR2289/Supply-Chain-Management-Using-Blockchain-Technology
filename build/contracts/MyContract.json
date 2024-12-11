@@ -1,0 +1,78 @@
+{
+  "contractName": "MyContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SupplyChain.sol\":\"MyContract\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SupplyChain.sol\":{\"keccak256\":\"0xfcf63373c362ba3af81fa57f5ad0bfca0d86d43e42f4918d5b9dd896db260eb8\",\"urls\":[\"bzz-raw://566917da8bdd03c27ab61410e50f34703bbc1e6a5f106e9a33ee99d78e3e747f\",\"dweb:/ipfs/QmSk2Sbp2PVZ4TzYq43QEFgkmoP5FAaNZx5BNQxAgtAifX\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea26469706673582212209fa59d389ec198be5248d9515880b8912444119b849489461707652fb264793f64736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea26469706673582212209fa59d389ec198be5248d9515880b8912444119b849489461707652fb264793f64736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "35:54:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "35:54:0:-:0;;;;;",
+  "source": "pragma solidity >=0.8.0 <0.9.0;\r\n\r\ncontract MyContract {\r\n    // Your contract code...\r\n}\r\n",
+  "sourcePath": "C:\\Users\\USER\\Downloads\\supply-chain-ethereum-main_new\\contracts\\SupplyChain.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/SupplyChain.sol",
+    "exportedSymbols": {
+      "MyContract": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:31:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "MyContract",
+        "nameLocation": "44:10:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "35:54:0",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "0:91:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-12-03T06:19:10.817Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
